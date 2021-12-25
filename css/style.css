@@ -174,13 +174,12 @@ html, body{
     }
 
     .navbar{
-
         text-align: center;
         font-size: 0.6rem;
     }
 
     .navbar li{
-        padding: 0.6rem 0.8rem;
+        padding: 0.6rem 0.5rem;
     }
 
     .winter-one-text{
