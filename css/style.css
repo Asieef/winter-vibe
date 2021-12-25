@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.8rem;
+    color: #666;
+}
+
+.topbar{
+ display: grid;
+ grid-template-columns: 2fr 6fr;
+ box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainlogo{
+    height: 100px;
+    width: 100px;
+}
+
+.logotext{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    letter-spacing: 6px;
+}
+
+
+.navbar{
+
+    text-align: right;
+    font-size: 0.8rem;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 1rem 1.2rem;
+}
+
+.navbar li:hover{
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:burlywood;
+}
+
+.winter-one,.winter-two,.winter-three{
+    opacity: 0.60;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.winter-one{
+    background-image: url(../media/image-one.jpg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.winter-one-text{
+    background-color: #678CBF;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    letter-spacing: 10px;
+}
+
+
+
+
+.winter-two{
+    background-image: url(../media/image-two.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winter-two-text{
+    background-color: #678CBF;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    letter-spacing: 10px;
+}
+
+
+
+.winter-three{
+    background-image: url(../media/image-three.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winter-three-text{
+    background-color: #678CBF;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    letter-spacing: 10px;
+}
+
+.section{
+    text-align: center;
+    padding: 3rem 4rem;
+}
+
+.section-one{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-two{
+    background-color:#282e34;
+    color:#ddd;
+}
+
+
+@media (max-width: 576px) {
+    
+    .topbar{
+        grid-template-columns: 1fr;
+       }
+
+    .mainlogo{
+        display: block;
+    }
+    
+    .logotext{
+        display: none;
+    }
+
+    .navbar{
+
+        text-align: center;
+        font-size: 0.6rem;
+    }
+
+    .navbar li{
+        padding: 0.6rem 0.8rem;
+    }
+
+    .winter-one-text{
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        letter-spacing: 6px;
+        width: 50%;
+    }
+
+    .winter-two-text{
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        letter-spacing: 6px;
+        width: 50%;
+    }
+
+    .winter-three-text{
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        letter-spacing: 6px;
+        width: 50%;
+    }
+
+    .section{
+        text-align: center;
+        padding: 1rem 1.6rem;
+    }
+}
